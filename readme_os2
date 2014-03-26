@@ -1,0 +1,13 @@
+This is the unmodified version of GED2WWW 0.31 recompiled for OS/2.
+The original was distributed under the terms of the the GNU
+General Public License (GPL).
+
+The directory src contains all the original source files plus the
+modified makefile, and will be required only if a rebuild is desired.
+I also included a sample gedcom file test.ged to test the program.
+
+To execute this program and rebuild the sample html files in the
+"html" subdirectory type "ged2www" and follow the prompts.
+
+Peter Flass <Peter_Flass@Yahoo.com>        July, 2002
+

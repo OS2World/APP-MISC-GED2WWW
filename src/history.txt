@@ -1,0 +1,60 @@
+0.30
+  Fixed typo in copyright statement
+  Added support for persistent options (GED2WWW now remembers previous options,
+    and can also be run in non-interactive batch mode)
+  Added support for language customization (via g2w_opts.txt file)
+  Switched to a different compiler for Windows/DOS version.  It is
+    still a command line program, but now it recognizes long filenames
+    however, now it no-longer supports DOS (Win 95/98/NT only)
+
+0.29
+  Fixed bug with source TITLEs being confused with nobility TITLEs.
+  Cleaned up some memory management routines.
+  Made GEDCOM processing code a bit more robust and tolerant.
+  Enhanced logging features.
+  Fixed bug with Character set (ANSEL vs ASCII) being assigned too late.
+  Fixed some memory allocation bugs.
+  Enhanced to produce META tags for easy identification by various search engines.
+  Enhanced copyright notice and put it on all pages.
+
+
+0.23
+  Added debugging/logging features
+  Added support for several more characters in ANSEL set.
+
+0.22
+  Fix bug that caused child to parent links to not appear if
+    only one parent.
+
+0.21
+  Fixed parser so GED2WWW would accept indented GEDCOM files.
+
+0.20
+  Restructured core program to use a hash table and use dynamically
+    allocated strings.  Cut down memory usage by %60.
+  Switched to a new version of compiler to make the program
+    more "Windows Friendly".
+  Produce better error messages when encountering structural
+    problems in GEDCOM file.
+  Removed default "My Genealogy Database" page name.
+  If hiding dates on living individuals, and no LVG tag found in GEDCOM,
+    GED2WWW will try and guess which individuals are alive based on birth and 
+    marriage dates. (date extraction logic courtesy of Dean Adams)
+  Retain original capitalization of names.
+  Partial support for ANSEL character set (characters with accents).
+    (international sort orders are not yet supported).
+  Allowed dates to be put with individuals on index pages.
+  Allowed selection of a background graphic for web pages.  
+
+0.15
+  Added ability to select alternate filename for base page (index.htm).
+  Added verification of input GEDCOM filename when it is entered.
+  Added user selectable background/text/link colors for HTML pages
+  Changed source code to compile more easily for UNIX/DOS versions
+  Added warning if HID DATES FOR LIVING INDIVIDUALS is selected and
+    no LVG flags detected in the GEDCOM file
+  Added ability to handle "\", " " and "-" characters as part of surnames.
+
+
+0.14  
+  First public release of GED2WWW
